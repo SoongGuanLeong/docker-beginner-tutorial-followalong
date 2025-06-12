@@ -23,6 +23,8 @@ docker ps
 # -p or publish = port binding like -p 80:80, -p {host port}:{container port}
 # --name = Assign a name to the container, auto-generated if none is specified
 # will auto download if no local images are found
+# -it = interactive mode
+# --entrypoint=bash (start in bash terminal)
 docker run {name}:{tag}
 ```
 ```bash
